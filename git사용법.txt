@@ -1,0 +1,11 @@
+github에 저장소(repository)를 만든다.
+
+git폴더에서
+
+1. github 레퍼지토리 내용을 내컴퓨터에 clone(복제)
+>> git clone https://github.com/아이디/레퍼지토리.git
+>> git>w0708 폴더 생성되며 안에 .git 파일 생성
+2. 업로드
+    git add .
+    git commit -m "업로드시킬 파일 간략정보"
+    git push -u origin main
